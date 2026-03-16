@@ -1,0 +1,2 @@
+/* Backup of guest_runner.c before observation-log modification. */
+/* Use read_file with the commitID to retrieve the original content. */

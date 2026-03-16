@@ -498,6 +498,23 @@ class Compiler {
     return e->second.second;
   }
 
+  /**
+   * Iterate over all emitted Ops in IP order.
+   * The callback receives (key_ip, end_ip, Op*) for each entry.
+   * key_ip is the IP stored as the key in ip_to_op_ (the base IP of the Op's
+   * emitted code range). Note that this is NOT necessarily the same as at_
+   * inside the Op — at_ is the IP of the actual memory instruction within the
+   * Op's emitted code, and may have an offset from key_ip.
+   *
+   * @param func Callback invoked for each Op: func(key_ip, end_ip, op)
+   */
+  template <class Func>
+  void ForEachOp(Func func) const {
+    for (const auto& entry : ip_to_op_) {
+      func(entry.first, entry.second.first, entry.second.second);
+    }
+  }
+
  private:
   typedef std::map<types::InstPtr, std::pair<types::InstPtr, Operation *>>
       InstPtr_Op;

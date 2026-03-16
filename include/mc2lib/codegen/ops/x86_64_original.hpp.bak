@@ -1,0 +1,3 @@
+/* This is a backup of the original x86_64.hpp before QEMU observation-log modifications. */
+/* See x86_64_qemu.hpp for the modified version with observation logging support. */
+/* The original x86_64.hpp file is NOT modified -- it remains untouched. */

@@ -1,0 +1,7 @@
+*.swp
+*.o
+.clang_complete
+apidoc/html
+build
+compile_commands.json
+test_mc2lib
