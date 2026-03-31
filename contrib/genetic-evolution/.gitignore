@@ -1,0 +1,13 @@
+# 排除大型二进制和中间文件
+runs/
+runs_*/
+tests/generation_*/gen*_test_*
+!tests/generation_*/gen*_test_*.c
+tests_*/
+logs_*/
+*.pyc
+__pycache__/
+*.o
+*.a
+src/
+CMakeLists.txt
