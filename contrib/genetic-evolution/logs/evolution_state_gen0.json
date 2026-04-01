@@ -1,0 +1,1892 @@
+{
+  "generation": 0,
+  "population_size": 20,
+  "best_fitness": 0.0,
+  "avg_fitness": 0.0,
+  "fitaddrs": [],
+  "tests": [
+    {
+      "test_id": "gen0_test_0",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "WRITE",
+            192,
+            1
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "FENCE",
+            192,
+            0
+          ],
+          [
+            "FENCE",
+            128,
+            0
+          ],
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "WRITE",
+            0,
+            1
+          ],
+          [
+            "WRITE",
+            384,
+            1
+          ],
+          [
+            "FENCE",
+            0,
+            0
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "FENCE",
+            896,
+            0
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ],
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ],
+          [
+            "READ",
+            384,
+            0
+          ],
+          [
+            "WRITE",
+            192,
+            1
+          ],
+          [
+            "WRITE",
+            768,
+            1
+          ],
+          [
+            "READ",
+            704,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_1",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "WRITE",
+            512,
+            1
+          ],
+          [
+            "FENCE",
+            896,
+            0
+          ],
+          [
+            "READ",
+            192,
+            0
+          ],
+          [
+            "FENCE",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            576,
+            0
+          ],
+          [
+            "FENCE",
+            704,
+            0
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ],
+          [
+            "WRITE",
+            128,
+            1
+          ],
+          [
+            "READ",
+            448,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "READ",
+            768,
+            0
+          ],
+          [
+            "FENCE",
+            896,
+            0
+          ],
+          [
+            "WRITE",
+            704,
+            1
+          ],
+          [
+            "READ",
+            704,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_2",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            512,
+            0
+          ],
+          [
+            "FENCE",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "READ",
+            896,
+            0
+          ],
+          [
+            "FENCE",
+            512,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "FENCE",
+            448,
+            0
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "READ",
+            960,
+            0
+          ],
+          [
+            "WRITE",
+            896,
+            1
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_3",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            512,
+            0
+          ],
+          [
+            "FENCE",
+            832,
+            0
+          ],
+          [
+            "READ",
+            768,
+            0
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "WRITE",
+            960,
+            1
+          ],
+          [
+            "WRITE",
+            64,
+            1
+          ]
+        ],
+        "1": [
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "FENCE",
+            832,
+            0
+          ],
+          [
+            "READ",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            768,
+            0
+          ],
+          [
+            "FENCE",
+            896,
+            0
+          ],
+          [
+            "FENCE",
+            512,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_4",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            192,
+            0
+          ],
+          [
+            "FENCE",
+            512,
+            0
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "READ",
+            576,
+            0
+          ],
+          [
+            "READ",
+            320,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "FENCE",
+            512,
+            0
+          ],
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "FENCE",
+            192,
+            0
+          ],
+          [
+            "FENCE",
+            576,
+            0
+          ],
+          [
+            "WRITE",
+            384,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_5",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "FENCE",
+            0,
+            0
+          ],
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "WRITE",
+            0,
+            1
+          ],
+          [
+            "READ",
+            704,
+            0
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "FENCE",
+            448,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "FENCE",
+            128,
+            0
+          ],
+          [
+            "WRITE",
+            960,
+            1
+          ],
+          [
+            "WRITE",
+            256,
+            1
+          ],
+          [
+            "FENCE",
+            960,
+            0
+          ],
+          [
+            "READ",
+            320,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_6",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ],
+          [
+            "READ",
+            576,
+            0
+          ],
+          [
+            "READ",
+            704,
+            0
+          ],
+          [
+            "WRITE",
+            896,
+            1
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "READ",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            0,
+            0
+          ],
+          [
+            "FENCE",
+            448,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            0,
+            1
+          ],
+          [
+            "WRITE",
+            64,
+            1
+          ],
+          [
+            "WRITE",
+            128,
+            1
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "READ",
+            448,
+            0
+          ],
+          [
+            "WRITE",
+            960,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_7",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            256,
+            0
+          ],
+          [
+            "WRITE",
+            960,
+            1
+          ],
+          [
+            "READ",
+            960,
+            0
+          ],
+          [
+            "WRITE",
+            384,
+            1
+          ],
+          [
+            "FENCE",
+            192,
+            0
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "FENCE",
+            896,
+            0
+          ],
+          [
+            "FENCE",
+            64,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            192,
+            1
+          ],
+          [
+            "FENCE",
+            768,
+            0
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ],
+          [
+            "WRITE",
+            896,
+            1
+          ],
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "READ",
+            512,
+            0
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "FENCE",
+            896,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_8",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            64,
+            0
+          ],
+          [
+            "WRITE",
+            0,
+            1
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "WRITE",
+            960,
+            1
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            64,
+            1
+          ],
+          [
+            "WRITE",
+            768,
+            1
+          ],
+          [
+            "READ",
+            768,
+            0
+          ],
+          [
+            "READ",
+            896,
+            0
+          ],
+          [
+            "FENCE",
+            832,
+            0
+          ],
+          [
+            "WRITE",
+            960,
+            1
+          ],
+          [
+            "READ",
+            384,
+            0
+          ],
+          [
+            "WRITE",
+            384,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_9",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            64,
+            0
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "FENCE",
+            64,
+            0
+          ],
+          [
+            "FENCE",
+            960,
+            0
+          ],
+          [
+            "WRITE",
+            320,
+            1
+          ],
+          [
+            "WRITE",
+            128,
+            1
+          ],
+          [
+            "FENCE",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            128,
+            0
+          ],
+          [
+            "READ",
+            448,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "FENCE",
+            448,
+            0
+          ],
+          [
+            "FENCE",
+            64,
+            0
+          ],
+          [
+            "READ",
+            128,
+            0
+          ],
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_10",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "READ",
+            512,
+            0
+          ],
+          [
+            "FENCE",
+            256,
+            0
+          ],
+          [
+            "READ",
+            576,
+            0
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "READ",
+            0,
+            0
+          ],
+          [
+            "WRITE",
+            192,
+            1
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ],
+          [
+            "WRITE",
+            704,
+            1
+          ]
+        ],
+        "1": [
+          [
+            "READ",
+            704,
+            0
+          ],
+          [
+            "READ",
+            320,
+            0
+          ],
+          [
+            "FENCE",
+            576,
+            0
+          ],
+          [
+            "FENCE",
+            0,
+            0
+          ],
+          [
+            "FENCE",
+            576,
+            0
+          ],
+          [
+            "WRITE",
+            192,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_11",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "WRITE",
+            192,
+            1
+          ],
+          [
+            "READ",
+            256,
+            0
+          ],
+          [
+            "FENCE",
+            576,
+            0
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "FENCE",
+            512,
+            0
+          ],
+          [
+            "READ",
+            960,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "FENCE",
+            128,
+            0
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "WRITE",
+            64,
+            1
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_12",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            896,
+            0
+          ],
+          [
+            "FENCE",
+            832,
+            0
+          ],
+          [
+            "WRITE",
+            0,
+            1
+          ],
+          [
+            "FENCE",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            256,
+            0
+          ],
+          [
+            "READ",
+            64,
+            0
+          ],
+          [
+            "READ",
+            256,
+            0
+          ],
+          [
+            "WRITE",
+            256,
+            1
+          ],
+          [
+            "READ",
+            576,
+            0
+          ],
+          [
+            "READ",
+            64,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "FENCE",
+            448,
+            0
+          ],
+          [
+            "READ",
+            192,
+            0
+          ],
+          [
+            "FENCE",
+            832,
+            0
+          ],
+          [
+            "WRITE",
+            256,
+            1
+          ],
+          [
+            "WRITE",
+            320,
+            1
+          ],
+          [
+            "WRITE",
+            832,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_13",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "READ",
+            448,
+            0
+          ],
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "READ",
+            192,
+            0
+          ],
+          [
+            "READ",
+            64,
+            0
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ]
+        ],
+        "1": [
+          [
+            "READ",
+            704,
+            0
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "FENCE",
+            0,
+            0
+          ],
+          [
+            "READ",
+            384,
+            0
+          ],
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "READ",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            704,
+            0
+          ],
+          [
+            "FENCE",
+            768,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_14",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "READ",
+            192,
+            0
+          ],
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ],
+          [
+            "FENCE",
+            192,
+            0
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "READ",
+            192,
+            0
+          ],
+          [
+            "READ",
+            384,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "READ",
+            384,
+            0
+          ],
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "FENCE",
+            640,
+            0
+          ],
+          [
+            "FENCE",
+            640,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_15",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "FENCE",
+            576,
+            0
+          ],
+          [
+            "FENCE",
+            576,
+            0
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "FENCE",
+            768,
+            0
+          ],
+          [
+            "FENCE",
+            576,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "READ",
+            384,
+            0
+          ],
+          [
+            "FENCE",
+            768,
+            0
+          ],
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "READ",
+            576,
+            0
+          ],
+          [
+            "READ",
+            0,
+            0
+          ],
+          [
+            "WRITE",
+            576,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_16",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "READ",
+            896,
+            0
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ],
+          [
+            "FENCE",
+            960,
+            0
+          ],
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "READ",
+            128,
+            0
+          ],
+          [
+            "WRITE",
+            640,
+            1
+          ],
+          [
+            "FENCE",
+            448,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "WRITE",
+            256,
+            1
+          ],
+          [
+            "WRITE",
+            64,
+            1
+          ],
+          [
+            "FENCE",
+            960,
+            0
+          ],
+          [
+            "READ",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            832,
+            0
+          ],
+          [
+            "FENCE",
+            384,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_17",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "READ",
+            768,
+            0
+          ],
+          [
+            "WRITE",
+            768,
+            1
+          ],
+          [
+            "FENCE",
+            256,
+            0
+          ],
+          [
+            "WRITE",
+            0,
+            1
+          ],
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "FENCE",
+            320,
+            0
+          ],
+          [
+            "WRITE",
+            896,
+            1
+          ],
+          [
+            "WRITE",
+            448,
+            1
+          ],
+          [
+            "WRITE",
+            896,
+            1
+          ],
+          [
+            "FENCE",
+            896,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "FENCE",
+            832,
+            0
+          ],
+          [
+            "WRITE",
+            896,
+            1
+          ],
+          [
+            "READ",
+            960,
+            0
+          ],
+          [
+            "WRITE",
+            512,
+            1
+          ],
+          [
+            "FENCE",
+            512,
+            0
+          ],
+          [
+            "FENCE",
+            960,
+            0
+          ],
+          [
+            "READ",
+            448,
+            0
+          ],
+          [
+            "WRITE",
+            896,
+            1
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_18",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "WRITE",
+            576,
+            1
+          ],
+          [
+            "READ",
+            512,
+            0
+          ],
+          [
+            "FENCE",
+            640,
+            0
+          ],
+          [
+            "WRITE",
+            128,
+            1
+          ],
+          [
+            "WRITE",
+            256,
+            1
+          ],
+          [
+            "FENCE",
+            768,
+            0
+          ],
+          [
+            "FENCE",
+            256,
+            0
+          ],
+          [
+            "WRITE",
+            384,
+            1
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "FENCE",
+            640,
+            0
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "READ",
+            384,
+            0
+          ],
+          [
+            "FENCE",
+            768,
+            0
+          ],
+          [
+            "FENCE",
+            0,
+            0
+          ],
+          [
+            "READ",
+            768,
+            0
+          ],
+          [
+            "READ",
+            0,
+            0
+          ],
+          [
+            "READ",
+            576,
+            0
+          ],
+          [
+            "FENCE",
+            832,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    },
+    {
+      "test_id": "gen0_test_19",
+      "generation": 0,
+      "parent_ids": [],
+      "num_threads": 2,
+      "num_iterations": 10,
+      "operations": {
+        "0": [
+          [
+            "READ",
+            448,
+            0
+          ],
+          [
+            "READ",
+            448,
+            0
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "READ",
+            0,
+            0
+          ],
+          [
+            "FENCE",
+            640,
+            0
+          ],
+          [
+            "FENCE",
+            768,
+            0
+          ],
+          [
+            "READ",
+            320,
+            0
+          ],
+          [
+            "FENCE",
+            256,
+            0
+          ],
+          [
+            "READ",
+            0,
+            0
+          ],
+          [
+            "WRITE",
+            0,
+            1
+          ]
+        ],
+        "1": [
+          [
+            "WRITE",
+            832,
+            1
+          ],
+          [
+            "WRITE",
+            896,
+            1
+          ],
+          [
+            "READ",
+            64,
+            0
+          ],
+          [
+            "READ",
+            768,
+            0
+          ],
+          [
+            "READ",
+            384,
+            0
+          ],
+          [
+            "READ",
+            640,
+            0
+          ],
+          [
+            "READ",
+            768,
+            0
+          ],
+          [
+            "READ",
+            832,
+            0
+          ],
+          [
+            "READ",
+            128,
+            0
+          ],
+          [
+            "FENCE",
+            0,
+            0
+          ]
+        ]
+      },
+      "fitness": 0.0,
+      "coverage": {
+        "address_pairs": [],
+        "new_pairs": [],
+        "violations": []
+      }
+    }
+  ],
+  "start_time": "2026-03-31T21:01:36.570683",
+  "last_update": "2026-03-31T21:05:20.369132",
+  "total_tests_run": 20
+}

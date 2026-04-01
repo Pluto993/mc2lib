@@ -113,25 +113,43 @@ void* thread_1(void* arg) {
 }
 
 void dump_trace() {
-    printf("\n=== Memory Trace (RVWMO Model) ===\n");
+    printf("\n=== Memory Trace (RVWMO Model - Sorted by Timestamp) ===\n");
     printf("timestamp,seq_id,core_id,type,address,value,po_index\n");
     
+    // Merge events from both cores by timestamp
+    uint32_t idx[NUM_CORES] = {0};
+    uint32_t total_events = 0;
     for (uint32_t core = 0; core < NUM_CORES; core++) {
-        for (uint32_t i = 0; i < event_count[core] && i < MAX_EVENTS; i++) {
-            MemoryEvent* e = &events[core][i];
-            
-            const char* type_str;
-            switch (e->type) {
-                case 0: type_str = "WRITE"; break;
-                case 1: type_str = "READ"; break;
-                case 2: type_str = "FENCE"; break;
-                default: type_str = "UNKNOWN"; break;
+        total_events += event_count[core];
+    }
+    
+    for (uint32_t i = 0; i < total_events; i++) {
+        // Find the earliest timestamp among remaining events
+        uint64_t min_ts = UINT64_MAX;
+        uint32_t min_core = 0;
+        
+        for (uint32_t core = 0; core < NUM_CORES; core++) {
+            if (idx[core] < event_count[core] && events[core][idx[core]].timestamp < min_ts) {
+                min_ts = events[core][idx[core]].timestamp;
+                min_core = core;
             }
-            
-            printf("TRACE:%lu,%u,%u,%s,0x%lx,%lu,%u\n",
-                   e->timestamp, e->seq_id, e->core_id, type_str,
-                   e->address, e->value, e->po_index);
         }
+        
+        if (min_ts == UINT64_MAX) break;
+        
+        MemoryEvent* e = &events[min_core][idx[min_core]++];
+        
+        const char* type_str;
+        switch (e->type) {
+            case 0: type_str = "WRITE"; break;
+            case 1: type_str = "READ"; break;
+            case 2: type_str = "FENCE"; break;
+            default: type_str = "UNKNOWN"; break;
+        }
+        
+        printf("TRACE:%lu,%u,%u,%s,0x%lx,%lu,%u\n",
+               e->timestamp, e->seq_id, e->core_id, type_str,
+               e->address, e->value, e->po_index);
     }
     
     printf("=== End Trace ===\n");

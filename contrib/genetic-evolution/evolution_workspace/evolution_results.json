@@ -1,0 +1,33 @@
+{
+  "generations": 2,
+  "population_size": 3,
+  "best_individual": {
+    "id": 0,
+    "generation": 0,
+    "num_iterations": 200,
+    "fence_type": "fence.tso",
+    "addresses": [
+      [
+        0,
+        64
+      ]
+    ],
+    "fitness": 30,
+    "violation_count": 0,
+    "coverage_score": 30
+  },
+  "history": [
+    {
+      "generation": 0,
+      "best_fitness": 30,
+      "avg_fitness": 30.0,
+      "best_violations": 0
+    },
+    {
+      "generation": 1,
+      "best_fitness": 30,
+      "avg_fitness": 30.0,
+      "best_violations": 0
+    }
+  ]
+}

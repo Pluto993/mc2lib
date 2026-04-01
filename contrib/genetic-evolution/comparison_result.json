@@ -1,0 +1,34 @@
+{
+  "tso": {
+    "model": "RISC-V TSO",
+    "trace_file": "tso_trace.txt",
+    "metrics": {
+      "total_events": 600,
+      "read_count": 200,
+      "write_count": 200,
+      "fence_count": 200,
+      "unique_addresses": 2,
+      "address_pairs": 2
+    },
+    "violations": [],
+    "violation_count": 0
+  },
+  "rvwmo": {
+    "model": "RISC-V RVWMO",
+    "trace_file": "rvwmo_trace.txt",
+    "metrics": {
+      "total_events": 600,
+      "read_count": 200,
+      "write_count": 200,
+      "fence_count": 200,
+      "unique_addresses": 2,
+      "address_pairs": 2
+    },
+    "violations": [],
+    "violation_count": 0
+  },
+  "comparison": {
+    "violation_diff": 0,
+    "tso_correct": true
+  }
+}

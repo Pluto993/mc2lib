@@ -1,0 +1,219 @@
+2026-03-31 21:01:36,570 [INFO] GeneticAlgorithm initialized:
+2026-03-31 21:01:36,570 [INFO]   Population: 20
+2026-03-31 21:01:36,570 [INFO]   Elite ratio: 0.1
+2026-03-31 21:01:36,570 [INFO]   Mutation rate: 0.1
+2026-03-31 21:01:36,570 [INFO]   P_USEL: 0.2, P_BFA: 0.05
+2026-03-31 21:01:36,570 [INFO] GEM5Runner initialized:
+2026-03-31 21:01:36,570 [INFO]   Binary: /root/.openclaw/workspace/gem5/build/RISCV/gem5.opt
+2026-03-31 21:01:36,570 [INFO]   Config: /root/.openclaw/workspace/gem5/configs/mc2lib_multicore_simple.py
+2026-03-31 21:01:36,570 [INFO]   Timeout: 90s
+2026-03-31 21:01:36,570 [INFO]   Parallel jobs: 4
+2026-03-31 21:01:36,570 [INFO] FitnessEvaluator initialized
+2026-03-31 21:01:36,570 [INFO] Creating initial state (Generation 0)
+2026-03-31 21:01:36,570 [INFO] Starting evolution from generation 0
+2026-03-31 21:01:36,570 [INFO] ============================================================
+2026-03-31 21:01:36,570 [INFO] Starting Generation 0
+2026-03-31 21:01:36,570 [INFO] ============================================================
+2026-03-31 21:01:36,570 [INFO] Generating initial population of 20 tests
+2026-03-31 21:01:36,571 [INFO] Generated 20 initial tests
+2026-03-31 21:01:36,571 [INFO] [0] Compiling tests...
+2026-03-31 21:01:38,161 [INFO]   Compiled: 20/20 (0 failed)
+2026-03-31 21:01:38,161 [INFO] [0] Running tests on gem5...
+2026-03-31 21:01:38,161 [INFO] Running 20 tests in parallel (4 workers)
+2026-03-31 21:01:38,166 [INFO] Running test gen0_test_1 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_1
+2026-03-31 21:01:38,166 [INFO] Running test gen0_test_0 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_0
+2026-03-31 21:01:38,166 [INFO] Running test gen0_test_3 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_3
+2026-03-31 21:01:38,166 [INFO] Running test gen0_test_2 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_2
+2026-03-31 21:02:16,572 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_0
+2026-03-31 21:02:16,573 [INFO] Test gen0_test_0 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:02:16,573 [INFO] Running test gen0_test_4 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_4
+2026-03-31 21:02:16,573 [INFO] Test gen0_test_0 finished: SUCCESS
+2026-03-31 21:02:23,115 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_2
+2026-03-31 21:02:23,115 [INFO] Test gen0_test_2 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:02:23,116 [INFO] Running test gen0_test_5 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_5
+2026-03-31 21:02:23,116 [INFO] Test gen0_test_2 finished: SUCCESS
+2026-03-31 21:02:23,904 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_3
+2026-03-31 21:02:23,904 [INFO] Test gen0_test_3 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:02:23,905 [INFO] Running test gen0_test_6 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_6
+2026-03-31 21:02:23,905 [INFO] Test gen0_test_3 finished: SUCCESS
+2026-03-31 21:02:23,915 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_1
+2026-03-31 21:02:23,915 [INFO] Test gen0_test_1 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:02:23,915 [INFO] Running test gen0_test_7 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_7
+2026-03-31 21:02:23,915 [INFO] Test gen0_test_1 finished: SUCCESS
+2026-03-31 21:03:00,083 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_4
+2026-03-31 21:03:00,083 [INFO] Test gen0_test_4 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:03:00,084 [INFO] Running test gen0_test_8 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_8
+2026-03-31 21:03:00,084 [INFO] Test gen0_test_4 finished: SUCCESS
+2026-03-31 21:03:02,970 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_7
+2026-03-31 21:03:02,970 [INFO] Test gen0_test_7 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:03:02,970 [INFO] Running test gen0_test_9 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_9
+2026-03-31 21:03:02,970 [INFO] Test gen0_test_7 finished: SUCCESS
+2026-03-31 21:03:05,887 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_6
+2026-03-31 21:03:05,887 [INFO] Test gen0_test_6 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:03:05,888 [INFO] Running test gen0_test_10 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_10
+2026-03-31 21:03:05,888 [INFO] Test gen0_test_6 finished: SUCCESS
+2026-03-31 21:03:06,007 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_5
+2026-03-31 21:03:06,007 [INFO] Test gen0_test_5 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:03:06,008 [INFO] Running test gen0_test_11 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_11
+2026-03-31 21:03:06,008 [INFO] Test gen0_test_5 finished: SUCCESS
+2026-03-31 21:03:45,148 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_8
+2026-03-31 21:03:45,148 [INFO] Test gen0_test_8 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:03:45,148 [INFO] Running test gen0_test_12 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_12
+2026-03-31 21:03:45,149 [INFO] Test gen0_test_8 finished: SUCCESS
+2026-03-31 21:03:45,906 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_9
+2026-03-31 21:03:45,906 [INFO] Test gen0_test_9 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:03:45,906 [INFO] Running test gen0_test_13 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_13
+2026-03-31 21:03:45,907 [INFO] Test gen0_test_9 finished: SUCCESS
+2026-03-31 21:03:48,450 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_10
+2026-03-31 21:03:48,450 [INFO] Test gen0_test_10 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:03:48,450 [INFO] Running test gen0_test_14 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_14
+2026-03-31 21:03:48,451 [INFO] Test gen0_test_10 finished: SUCCESS
+2026-03-31 21:03:51,734 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_11
+2026-03-31 21:03:51,735 [INFO] Test gen0_test_11 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:03:51,735 [INFO] Running test gen0_test_15 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_15
+2026-03-31 21:03:51,735 [INFO] Test gen0_test_11 finished: SUCCESS
+2026-03-31 21:04:24,941 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_12
+2026-03-31 21:04:24,942 [INFO] Test gen0_test_12 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:04:24,942 [INFO] Running test gen0_test_16 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_16
+2026-03-31 21:04:24,942 [INFO] Test gen0_test_12 finished: SUCCESS
+2026-03-31 21:04:29,577 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_14
+2026-03-31 21:04:29,578 [INFO] Test gen0_test_14 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:04:29,578 [INFO] Running test gen0_test_17 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_17
+2026-03-31 21:04:29,578 [INFO] Test gen0_test_14 finished: SUCCESS
+2026-03-31 21:04:33,009 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_13
+2026-03-31 21:04:33,009 [INFO] Test gen0_test_13 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:04:33,010 [INFO] Running test gen0_test_18 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_18
+2026-03-31 21:04:33,010 [INFO] Test gen0_test_13 finished: SUCCESS
+2026-03-31 21:04:39,294 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_15
+2026-03-31 21:04:39,294 [INFO] Test gen0_test_15 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:04:39,294 [INFO] Running test gen0_test_19 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_19
+2026-03-31 21:04:39,294 [INFO] Test gen0_test_15 finished: SUCCESS
+2026-03-31 21:05:09,800 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_16
+2026-03-31 21:05:09,800 [INFO] Test gen0_test_16 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:05:09,801 [INFO] Test gen0_test_16 finished: SUCCESS
+2026-03-31 21:05:10,267 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_17
+2026-03-31 21:05:10,268 [INFO] Test gen0_test_17 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:05:10,268 [INFO] Test gen0_test_17 finished: SUCCESS
+2026-03-31 21:05:13,767 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_18
+2026-03-31 21:05:13,767 [INFO] Test gen0_test_18 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:05:13,768 [INFO] Test gen0_test_18 finished: SUCCESS
+2026-03-31 21:05:20,366 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_19
+2026-03-31 21:05:20,366 [INFO] Test gen0_test_19 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:05:20,366 [INFO] Test gen0_test_19 finished: SUCCESS
+2026-03-31 21:05:20,368 [INFO] Parallel execution complete: 20/20 succeeded
+2026-03-31 21:05:20,368 [INFO]   gem5 runs complete: 20/20 succeeded
+2026-03-31 21:05:20,368 [INFO] [0] Evaluating fitness...
+2026-03-31 21:05:20,368 [INFO] Evaluating 20 tests
+2026-03-31 21:05:20,369 [INFO] Evaluation complete: 0 new address pairs discovered, total fitaddrs: 0
+2026-03-31 21:05:20,373 [INFO] Saved state to logs/evolution_state_gen0.json
+2026-03-31 21:05:20,373 [INFO] Generation 0 complete!
+2026-03-31 21:05:20,373 [INFO]   Best fitness: 0.0000
+2026-03-31 21:05:20,373 [INFO]   Avg fitness:  0.0000
+2026-03-31 21:05:20,373 [INFO]   Fitaddrs:     0
+2026-03-31 21:05:20,373 [INFO] ============================================================
+2026-03-31 21:05:20,373 [INFO] ============================================================
+2026-03-31 21:05:20,373 [INFO] Starting Generation 1
+2026-03-31 21:05:20,373 [INFO] ============================================================
+2026-03-31 21:05:20,373 [INFO] [1] Evolving population via genetic operators...
+2026-03-31 21:05:20,373 [INFO] Evolving population (size=20)
+2026-03-31 21:05:20,373 [INFO]   Keeping 2 elites (best fitness: 0.0000)
+2026-03-31 21:05:20,373 [INFO]   Generated 18 offspring
+2026-03-31 21:05:20,373 [INFO] [1] Compiling tests...
+2026-03-31 21:05:21,963 [INFO]   Compiled: 20/20 (0 failed)
+2026-03-31 21:05:21,963 [INFO] [1] Running tests on gem5...
+2026-03-31 21:05:21,963 [INFO] Running 20 tests in parallel (4 workers)
+2026-03-31 21:05:21,967 [INFO] Running test gen0_test_0 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_0
+2026-03-31 21:05:21,967 [INFO] Running test gen1_test_0 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_0
+2026-03-31 21:05:21,967 [INFO] Running test gen0_test_1 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_1
+2026-03-31 21:05:21,967 [INFO] Running test gen1_test_1 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_1
+2026-03-31 21:06:01,749 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_0
+2026-03-31 21:06:01,749 [INFO] Test gen0_test_0 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:06:01,750 [INFO] Running test gen1_test_2 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_2
+2026-03-31 21:06:01,750 [INFO] Test gen0_test_0 finished: SUCCESS
+2026-03-31 21:06:08,136 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen0_test_1
+2026-03-31 21:06:08,136 [INFO] Test gen0_test_1 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:06:08,137 [INFO] Running test gen1_test_3 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_3
+2026-03-31 21:06:08,137 [INFO] Test gen0_test_1 finished: SUCCESS
+2026-03-31 21:06:08,210 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_1
+2026-03-31 21:06:08,210 [INFO] Test gen1_test_1 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:06:08,211 [INFO] Running test gen1_test_4 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_4
+2026-03-31 21:06:08,211 [INFO] Test gen1_test_1 finished: SUCCESS
+2026-03-31 21:06:08,273 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_0
+2026-03-31 21:06:08,273 [INFO] Test gen1_test_0 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:06:08,273 [INFO] Running test gen1_test_5 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_5
+2026-03-31 21:06:08,273 [INFO] Test gen1_test_0 finished: SUCCESS
+2026-03-31 21:06:47,170 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_2
+2026-03-31 21:06:47,170 [INFO] Test gen1_test_2 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:06:47,171 [INFO] Running test gen1_test_6 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_6
+2026-03-31 21:06:47,171 [INFO] Test gen1_test_2 finished: SUCCESS
+2026-03-31 21:06:47,570 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_3
+2026-03-31 21:06:47,570 [INFO] Test gen1_test_3 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:06:47,570 [INFO] Running test gen1_test_7 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_7
+2026-03-31 21:06:47,570 [INFO] Test gen1_test_3 finished: SUCCESS
+2026-03-31 21:06:53,332 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_4
+2026-03-31 21:06:53,333 [INFO] Test gen1_test_4 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:06:53,333 [INFO] Running test gen1_test_8 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_8
+2026-03-31 21:06:53,333 [INFO] Test gen1_test_4 finished: SUCCESS
+2026-03-31 21:06:53,579 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_5
+2026-03-31 21:06:53,579 [INFO] Test gen1_test_5 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:06:53,579 [INFO] Running test gen1_test_9 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_9
+2026-03-31 21:06:53,579 [INFO] Test gen1_test_5 finished: SUCCESS
+2026-03-31 21:07:27,226 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_7
+2026-03-31 21:07:27,226 [INFO] Test gen1_test_7 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:07:27,227 [INFO] Running test gen1_test_10 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_10
+2026-03-31 21:07:27,227 [INFO] Test gen1_test_7 finished: SUCCESS
+2026-03-31 21:07:27,539 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_6
+2026-03-31 21:07:27,539 [INFO] Test gen1_test_6 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:07:27,539 [INFO] Running test gen1_test_11 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_11
+2026-03-31 21:07:27,539 [INFO] Test gen1_test_6 finished: SUCCESS
+2026-03-31 21:07:34,180 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_8
+2026-03-31 21:07:34,181 [INFO] Test gen1_test_8 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:07:34,181 [INFO] Running test gen1_test_12 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_12
+2026-03-31 21:07:34,181 [INFO] Test gen1_test_8 finished: SUCCESS
+2026-03-31 21:07:37,327 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_9
+2026-03-31 21:07:37,327 [INFO] Test gen1_test_9 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:07:37,327 [INFO] Running test gen1_test_13 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_13
+2026-03-31 21:07:37,328 [INFO] Test gen1_test_9 finished: SUCCESS
+2026-03-31 21:08:08,756 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_11
+2026-03-31 21:08:08,756 [INFO] Test gen1_test_11 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:08:08,757 [INFO] Running test gen1_test_14 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_14
+2026-03-31 21:08:08,757 [INFO] Test gen1_test_11 finished: SUCCESS
+2026-03-31 21:08:09,894 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_10
+2026-03-31 21:08:09,895 [INFO] Test gen1_test_10 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:08:09,895 [INFO] Running test gen1_test_15 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_15
+2026-03-31 21:08:09,895 [INFO] Test gen1_test_10 finished: SUCCESS
+2026-03-31 21:08:19,652 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_12
+2026-03-31 21:08:19,653 [INFO] Test gen1_test_12 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:08:19,653 [INFO] Running test gen1_test_16 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_16
+2026-03-31 21:08:19,653 [INFO] Test gen1_test_12 finished: SUCCESS
+2026-03-31 21:08:20,663 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_13
+2026-03-31 21:08:20,663 [INFO] Test gen1_test_13 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:08:20,664 [INFO] Running test gen1_test_17 in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_17
+2026-03-31 21:08:20,664 [INFO] Test gen1_test_13 finished: SUCCESS
+2026-03-31 21:08:48,300 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_15
+2026-03-31 21:08:48,300 [INFO] Test gen1_test_15 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:08:48,301 [INFO] Test gen1_test_15 finished: SUCCESS
+2026-03-31 21:08:52,638 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_14
+2026-03-31 21:08:52,639 [INFO] Test gen1_test_14 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:08:52,639 [INFO] Test gen1_test_14 finished: SUCCESS
+2026-03-31 21:09:03,827 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_16
+2026-03-31 21:09:03,827 [INFO] Test gen1_test_16 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:09:03,828 [INFO] Test gen1_test_16 finished: SUCCESS
+2026-03-31 21:09:03,999 [WARNING] No memory trace files found in /root/.openclaw/workspace/mc2lib-evolution/runs/gen1_test_17
+2026-03-31 21:09:04,000 [INFO] Test gen1_test_17 complete: 0 events, 0 address pairs, 0 violations
+2026-03-31 21:09:04,000 [INFO] Test gen1_test_17 finished: SUCCESS
+2026-03-31 21:09:04,003 [INFO] Parallel execution complete: 20/20 succeeded
+2026-03-31 21:09:04,003 [INFO]   gem5 runs complete: 20/20 succeeded
+2026-03-31 21:09:04,003 [INFO] [1] Evaluating fitness...
+2026-03-31 21:09:04,003 [INFO] Evaluating 20 tests
+2026-03-31 21:09:04,003 [INFO] Evaluation complete: 0 new address pairs discovered, total fitaddrs: 0
+2026-03-31 21:09:04,007 [INFO] Saved state to logs/evolution_state_gen1.json
+2026-03-31 21:09:04,007 [INFO] Generation 1 complete!
+2026-03-31 21:09:04,007 [INFO]   Best fitness: 0.0000
+2026-03-31 21:09:04,007 [INFO]   Avg fitness:  0.0000
+2026-03-31 21:09:04,008 [INFO]   Fitaddrs:     0
+2026-03-31 21:09:04,008 [INFO] ============================================================
+2026-03-31 21:09:04,008 [INFO] Evolution complete!
+2026-03-31 21:09:04,008 [INFO] Final generation: 2
+2026-03-31 21:09:04,008 [INFO] Best fitness: 0.0000
+2026-03-31 21:09:04,008 [INFO] Total tests run: 40
