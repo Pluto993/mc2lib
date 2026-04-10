@@ -1,0 +1,18 @@
+# 忽略生成的测试文件
+massive_test_*.c
+massive_test_*_log.txt
+
+# 忽略编译后的二进制
+massive_test_small_*
+massive_test_medium_*
+massive_test_large_*
+massive_test_massive_*
+massive_test_extreme_*
+
+# 忽略临时脚本
+quick_fix_compile.sh
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
